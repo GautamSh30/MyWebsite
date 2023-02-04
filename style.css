@@ -1,0 +1,101 @@
+.home {
+  /* display: inline; */
+  margin-right: 1em;
+  color: rgb(25, 26, 26);
+  font-family: cursive;
+  box-sizing: border-box;
+  display: grid;
+}
+
+body.intro {
+  background-color: rgb(255, 255, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body.expectations {
+  background-color: #77e9e9;
+}
+/* .img_hash { */
+/* } */
+
+.btn_link {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.btn_btn:link,
+.btn_btn:visited {
+  /* display: block; */
+  background-color: #40c057;
+  color: rgb(49, 49, 49);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn_btn:hover,
+.btn_btn:active {
+  background-color: #2f9e44;
+}
+.header_class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_intro {
+  display: flex;
+  justify-items: flex-start;
+}
+.name {
+  font-family: "Aboreto", cursive;
+  margin-top: -200px;
+  margin-left: 120px;
+}
+.Intro_html {
+  font-family: "Comfortaa", cursive;
+}
+.Hobbies_tag {
+  font-family: "Aboreto", cursive;
+  font-weight: 900;
+}
+.h1_tag {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  text-transform: uppercase;
+  /* text-decoration: underline black; */
+}
+.backhome {
+  text-decoration: none;
+  font-family: "Aboreto", cursive;
+  font-size: 16px;
+}
+.points {
+  font-family: "Aboreto", cursive;
+  font-size: 16px;
+  font-weight: 600;
+}
+.borderimg {
+  border: 5px solid black;
+  padding: 3px;
+  margin: 5px;
+}
+.images {
+  border: solid;
+}
+.body_real {
+  background-color: rgb(145, 231, 202);
+}
+.backhome {
+  text-decoration: none;
+  font-family: "Aboreto", cursive;
+  font-size: 16px;
+}
+.follow {
+  font-family: "Aboreto", cursive;
+  font-weight: 600;
+}
